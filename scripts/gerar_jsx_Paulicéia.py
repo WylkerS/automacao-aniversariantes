@@ -15,7 +15,7 @@ def ler_planilha(caminho):
     return df
 
 
-def gerar_jsx(df, caminho_jsx):
+def gerar_jsx_Paulicéia(df, caminho_jsx):
     """Gera o arquivo JSX contendo a lista formatada de aniversariantes"""
     with open(caminho_jsx, 'w', encoding='utf-8') as f:
         f.write('var aniversariantes = [\n')
