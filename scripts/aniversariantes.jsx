@@ -19,7 +19,7 @@ function gerarAniversariantes(doc, aniversariantes) {
     var espacamentoAniversariante = 15;
     var espacamentoTituloParaAniversariante = 20;
     var espacamentoEntreDias = 50;
-    var limiteInferiorPagina = 200;
+    var limiteInferiorPagina = 50;
     var margemSeguranca = 20;
     var deslocamentoColuna = 200;
     var maxColunasPorPrancheta = 2;
